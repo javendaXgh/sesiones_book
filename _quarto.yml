@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Sesiones Trabajo de Grado"
+  author: "José"
+  date: "10/7/2025"
+  chapters:
+    - index.qmd
+    - summary.qmd
+    - introduccion.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    cover-image: img/portada.png
+  pdf:
+    documentclass: scrreprt
+
+
+editor: visual
+

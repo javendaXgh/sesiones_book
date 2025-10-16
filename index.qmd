@@ -1,0 +1,27 @@
+# Contenido del Taller
+
+Esto es un **demo** para un *libro* Quarto book
+
+Más info sobre documentación Quarto [https://quarto.org/docs/books](#0){.uri}.
+
+Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
+
+![](img/UCV.png)
+
+7-10 Config YML, Build- Render pdf y/o html
+
+9-10 Capítulos, Preview
+
+16-10 configurar GIT
+
+21-10 Citas: zotero, DOI,packages. formato APA
+
+23-10 Referencias cruzadas, imágenes
+
+28-10 Tablas y gráficos, chunks según formato destino
+
+30-10 Git Sync
+
+4-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)
+
+**Pendiente**: Imágenes, caché, estrategias (lectura de archivos)
