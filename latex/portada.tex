@@ -1,0 +1,121 @@
+%\vspace{-2.0cm}
+\pagenumbering{roman}
+\thispagestyle{empty}
+\begin{center}
+	UNIVERSIDAD CENTRAL DE VENEZUELA\\
+	FACULTAD DE CIENCIAS\\
+	POSTGRADO EN CIENCIAS DE LA COMPUTACI\'ON\\
+
+	\begin{figure}
+						\centering
+						  \includegraphics[height=.7\textwidth]{img/UCV.png}
+  \end{figure}
+  \vspace{1.5cm}
+  \large{\textbf{RECUPERACI\'ON, EXTRACCI\'ON Y CLASIFICACI\'ON DE \\ INFORMACI\'ON DE SABER UCV}}
+
+  \vspace{3cm}
+  Trabajo de Grado de Maestría presentado ante la \\
+  ilustre Universidad Central de Venezuela por el\\
+  Econ. José Miguel Avendaño Infante para  optar
+  al título de \\Magister Scientiarum en Ciencias de la Computaci\'on\\
+  \vspace{0.5cm}
+  Tutor: Dr. José Francisco Mirabal\\
+  \vspace{1.5cm}
+  Caracas - Venezuela\\
+  Marzo 2024
+\end{center}
+
+
+\newpage
+\thispagestyle{empty}
+\large{\textbf{Resumen}}
+
+Se presenta la investigación \emph{Recuperación, Extracción y Clasificación de Información de Saber UCV}, donde se ejecutan procesos de clasificación, almacenamiento y recuperación de información sobre las tesis y trabajos de grado que se encuentran publicados en el repositorio institucional Saber UCV.
+
+En tal sentido, se implementa un sistema que clasifica, según el área académica donde cursó estudios el autor, el 96\% de las {9.982} investigaciones publicadas. Adicionalmente, con los textos de los resúmenes de los trabajos y con las clasificaciones obtenidas, se conforma un corpus al cual se le aplican técnicas de procesamiento de lenguaje natural, de minería de texto y con modelos de inteligencia artificial preentrenados se crean \textit{embeddings} desde los documentos. Finalmente, con toda la información procesada se alimenta una base de datos indexada que contiene un índice invertido.
+
+
+Por otra parte, el sistema cuenta con una aplicación web para hacer procesos de recuperación de información donde el usuario puede explorar el corpus, mediante la búsqueda semántica y la búsqueda de texto completo, indicando los siguientes valores: texto a buscar, rango de fechas, área en la cual se generó la investigación y nivel académico; posteriormente se recuperan los trabajos de mayor relevancia, enriqueciendo la experiencia con la presentación de los resultados en tablas interactivas, mapas de conocimiento y recomendaciones de documentos que puedan ser de interés.
+
+La implementación se hace bajo un sistema distribuido con la arquitectura cliente-servidor y se soporta en el uso de contenedores orquestados.
+
+\vspace*{2cm}
+
+\textbf{Palabras Clave:} recuperación de información, procesamiento del lenguaje natural, inteligencia artificial, embeddings, búsqueda semántica, mapas de conocimiento.
+
+
+
+
+\newpage
+\thispagestyle{empty}
+\large{\textbf{Abstract}}
+
+The research \emph{Recovery, Extraction and Classification of Information from Saber UCV}, is presented, where processes of classification, storage and retrieval of information on theses and degree works published in the institutional repository Saber UCV are executed.
+
+In this sense, a system is implemented that classifies 96\% of the 9,982 research papers to be categorized according to the academic area where the author of the research studied. Additionally, with the texts of the abstracts of the papers and the classifications obtained, a corpus is formed to which natural language processing and text mining techniques are applied, and with pre-trained artificial intelligence models, embeddings are created from the documents. Finally, all the processed information is fed into an indexed database containing an inverted index.
+On the other hand, the system has a web application for information retrieval processes where the user can explore the corpus, through semantic search and full text search, indicating the following values: text to search, date range, area in which the research was generated, academic level; subsequently, the most relevant works are retrieved, enriching the experience with the presentation of the results in interactive tables, knowledge maps and recommendations of documents that may be of interest.
+
+The system is implemented under a distributed system with client-server architecture and is supported by the use of orchestrated containers.
+
+
+\vspace*{2cm}
+
+\textbf{Keywords:} information retrieval, natural language processing,  artificial intelligence, embeddings, semantic search, knowledge maps.
+
+\thispagestyle{empty}
+
+
+%\newpage
+
+
+\setlength{\abovedisplayskip}{-5pt}
+\setlength{\abovedisplayshortskip}{-5pt}
+\thispagestyle{empty}
+
+\newpage
+\begin{center}
+\large{\textbf{\emph{\Huge{Dedicatoria:}}}}
+\end{center}
+\thispagestyle{empty}
+\vspace*{5cm}
+\thispagestyle{empty}
+\begin{center} \Large \emph{A fulana,  } \end{center}
+\vspace*{1cm}
+\begin{center} \Large \emph{perencejo.} \end{center}
+\vspace*{1cm}
+\begin{center} \Large {\emph{Todos los que andan por ahí.}} \end{center}
+
+
+
+\newpage
+\begin{center}
+\large{\textbf{\emph{\Huge{Agradecimientos:}}}}
+\end{center}
+\thispagestyle{empty}
+\vspace*{2cm}
+\thispagestyle{empty}
+
+- A mi mismo,
+
+\newpage
+\thispagestyle{empty}
+\vspace*{5cm}
+\hfill
+\begin{minipage}{0.70\textwidth}
+\begin{quote}
+Como todos los hombres de la Biblioteca, he viajado en mi juventud; he peregrinado en busca de un libro, acaso del \emph{catálogo de catálogos}; ahora que mis ojos caso no pueden descifrar lo que escribo, me preparo a morir a unas pocas leguas del hexágono en que nací.\\
+--- Jorge Luis Borges, \textit{La Bibioloteca de Babel}, Ficciones
+\end{quote}
+\hspace*{2cm}
+
+\begin{quote}
+Every important aspect of programming arises somewhere in the context of sorting or searching.
+
+--- Donald Knuth, \textit{The Art of Computer Programming}, Volume 3
+\end{quote}
+\end{minipage}
+
+\thispagestyle{empty}
+\maketitle
+
+

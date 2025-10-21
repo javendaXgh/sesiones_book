@@ -19,6 +19,14 @@ format:
     cover-image: img/portada.png
   pdf:
     documentclass: scrreprt
+    include-in-header: latex/preamble.tex
+    include-before-body: latex/portada.tex
+    csl: apa.csl
+    biblio-style: apa
+    fontsize: 12pt
+    geometry: left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm
+    mainfont: Times New Roman
+
 
 
 editor: visual

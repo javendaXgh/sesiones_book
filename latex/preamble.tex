@@ -1,0 +1,21 @@
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[none]{hyphenat}
+\raggedbottom
+\usepackage{blindtext}
+\usepackage{textcomp}
+\usepackage{pdfpages}
+
+
+\usepackage{scrlayer-scrpage}
+\usepackage{lipsum}% just to generate text for the example
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\ohead{\rightmark}
+\cfoot[\pagemark]{\pagemark}
+
+
+
+\let\oldmaketitle\maketitle
+\AtBeginDocument{\let\maketitle\relax}

@@ -1,5 +1,8 @@
 # Contenido del Taller
 
+\clearpage
+\pagenumbering{arabic}
+
 Esto es un **demo** para un *libro* Quarto book
 
 Más info sobre documentación Quarto [https://quarto.org/docs/books](#0){.uri}.
@@ -25,3 +28,5 @@ Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
 4-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)
 
 **Pendiente**: Imágenes, caché, estrategias (lectura de archivos)
+
+Y en el libro [@blanchard2021]
