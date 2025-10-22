@@ -9,3 +9,11 @@ See @knuth84 for additional discussion of literate programming.
 ```
 
 Y más problemático aún es [@wordtovec]
+
+Y para el procesamiento de los datos geoespaciales usamos SF [@sf]
+
+Hoy citamos al pol'emioxxooo [@krugman1991]
+
+Y ahora vamos a citar al renombrado autor Blanchard [@blanchard2021]
+
+[@tamames2023]

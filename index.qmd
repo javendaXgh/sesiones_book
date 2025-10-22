@@ -1,7 +1,7 @@
-# Contenido del Taller
-
 \clearpage
 \pagenumbering{arabic}
+
+# Contenido del Taller
 
 Esto es un **demo** para un *libro* Quarto book
 
