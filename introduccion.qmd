@@ -1,19 +1,11 @@
-# Planteamiento del Problema {.unnumbered}
+# Introducción a la Economía {#sec-intro}
 
-This is a book created from markdown and executable code.
+Bienvenidos a este curso introductorio de economía. La economía es el estudio de cómo las sociedades gestionan sus **recursos escasos**. Esta definición simple abarca un campo de estudio inmenso y complejo.
 
-See @knuth84 for additional discussion of literate programming.
+En este libro, dividiremos nuestro estudio en dos ramas principales:
 
-```{r}
-1 + 1
-```
+1.  **Microeconomía**: El estudio de cómo los hogares y las empresas toman decisiones e interactúan en los mercados.
 
-Y más problemático aún es [@wordtovec]
+2.  **Macroeconomía**: El estudio de los fenómenos que afectan al conjunto de la economía, como la inflación, el desempleo y el crecimiento económico.
 
-Y para el procesamiento de los datos geoespaciales usamos SF [@sf]
-
-Hoy citamos al pol'emioxxooo [@krugman1991]
-
-Y ahora vamos a citar al renombrado autor Blanchard [@blanchard2021]
-
-[@tamames2023]
+Comenzaremos explorando los fundamentos de la oferta y la demanda en el @sec-micro. Posteriormente, analizaremos los grandes agregados en el @sec-macro.

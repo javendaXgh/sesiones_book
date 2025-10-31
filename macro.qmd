@@ -1,0 +1,17 @@
+# Macroeconomía: Medición del Ingreso {#sec-macro}
+
+Ahora pasamos a la macroeconomía. A diferencia del análisis de mercados individuales que vimos en @sec-micro, aquí nos interesa la economía en su conjunto.
+
+## El Producto Interno Bruto (PIB)
+
+La estadística más importante para medir la salud económica de un país es el **Producto Interno Bruto (PIB)**.
+
+> El PIB es el valor de mercado de todos los bienes y servicios finales producidos dentro de un país en un período de tiempo determinado.
+
+El PIB ($Y$) se compone de cuatro elementos:
+
+$$ Y = C + I + G + (X - M) $$
+
+Donde: \* $C$ = Consumo \* $I$ = Inversión \* $G$ = Gasto del Gobierno \* $(X - M)$ = Exportaciones Netas
+
+Mientras que nuestro análisis en la @fig-oferta-demanda se centraba en el precio y la cantidad de un solo bien, el PIB suma el valor de *todos* los bienes.

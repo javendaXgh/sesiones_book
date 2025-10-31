@@ -1,7 +1,10 @@
-\clearpage
-\pagenumbering{arabic}
+---
+title: "Contenido"
+---
 
-# Contenido del Taller
+\clearpage
+
+\pagenumbering{arabic}
 
 Esto es un **demo** para un *libro* Quarto book
 
@@ -11,6 +14,8 @@ Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
 
 ![](img/UCV.png)
 
+## Sesiones Programadas
+
 7-10 Config YML, Build- Render pdf y/o html
 
 9-10 Capítulos, Preview
@@ -19,14 +24,10 @@ Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
 
 21-10 Citas: zotero, DOI,packages. formato APA
 
-23-10 Referencias cruzadas, imágenes
+4-11 Referencias cruzadas, imágenes
 
-28-10 Tablas y gráficos, chunks según formato destino
+6-11 Tablas y gráficos, chunks según formato destino
 
-30-10 Git Sync
+11-11 Git Sync
 
-4-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)
-
-**Pendiente**: Imágenes, caché, estrategias (lectura de archivos)
-
-Y en el libro [@blanchard2021]
+13-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)
