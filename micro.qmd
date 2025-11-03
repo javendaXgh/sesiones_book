@@ -15,6 +15,14 @@ El punto donde ambas curvas se cruzan se llama **equilibrio de mercado**. En est
 
 Este equilibrio se ilustra claramente en el gráfico de oferta y demanda, como se ve en la @fig-oferta-demanda.
 
-![Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio ($P^*$) y la cantidad de equilibrio ($Q^*$).](img/od.png){#fig-oferta-demanda fig-align="center" width="70%"}
+![Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio ($P^2$) y la cantidad de equilibrio ($Q^*$).](img/od.png){#fig-oferta-demanda fig-align="right" width="70%"}
 
 Cualquier precio por encima de $P^*$ resultará en un excedente, mientras que cualquier precio por debajo causará escasez.
+
+### Economia conductual
+
+La microeconomía conductual (o economía del comportamiento) representa una fusión entre la psicología y la microeconomía tradicional. Su objetivo es mejorar el poder explicativo de la economía incorporando factores psicológicos en el análisis de la toma de decisiones. A diferencia del modelo clásico del homo economicus, que asume que los individuos son perfectamente racionales, egoístas y maximizadores de utilidad, la economía conductual parte de la premisa de que los seres humanos operan con una racionalidad limitada. Esto significa que nuestras decisiones están a menudo influenciadas por emociones, sesgos cognitivos y factores sociales, lo que nos lleva a tomar decisiones que, a veces, son predeciblemente irracionales.
+
+Este campo de estudio se centra en identificar y analizar las heurísticas (atajos mentales) y los sesgos cognitivos que afectan sistemáticamente nuestras elecciones. Conceptos clave incluyen la aversión a la pérdida, que postula que el dolor de perder una cantidad es psicológicamente más poderoso que el placer de ganar la misma cantidad. Otros ejemplos son el efecto anclaje, donde dependemos excesivamente de la primera información recibida; el sesgo de statu quo, nuestra tendencia a preferir que las cosas permanezcan como están; y el efecto marco (framing), que demuestra cómo la forma en que se presenta una opción puede alterar drásticamente la decisión tomada.
+
+Las implicaciones de la microeconomía conductual son vastas y han revolucionado tanto el sector privado como las políticas públicas. En marketing, ayuda a entender por qué los consumidores eligen un producto sobre otro. En finanzas, explica las burbujas de mercado y las decisiones de inversión subóptimas. Quizás su aplicación más famosa sea en el diseño de "Nudges" (pequeños empujones), popularizado por Richard Thaler. Estos son cambios sutiles en la arquitectura de decisión que guían a las personas hacia elecciones más beneficiosas (como ahorrar más para la jubilación o elegir opciones más saludables) sin coartar su libertad de elección.

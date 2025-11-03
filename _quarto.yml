@@ -20,14 +20,14 @@ format:
     theme: cosmo
     cover-image: img/portada.png
   pdf:
+    latex_engine: pdflatex  # O lualatex
+    # mainfont: Times New Roman
     documentclass: scrreprt
     include-in-header: latex/preamble.tex
     include-before-body: latex/portada.tex
     csl: apa.csl
     fontsize: 12pt
     geometry: left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm
-    mainfont: Times New Roman
     biblio-style: apa
-
 editor: visual
 
