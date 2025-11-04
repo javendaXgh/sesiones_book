@@ -1,7 +1,5 @@
 # Contenido
 
-\clearpage
-
 \pagenumbering{arabic}
 
 Esto es un **demo** para un *libro* Quarto book
@@ -9,8 +7,6 @@ Esto es un **demo** para un *libro* Quarto book
 Más info sobre documentación Quarto [https://quarto.org/docs/books](#0){.uri}.
 
 Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
-
-![](img/UCV.png)
 
 ## Sesiones Programadas
 
@@ -22,10 +18,10 @@ Voy a crear referencia a un paquete [@dplyr] que hemos usado ampliamente
 
 21-10 Citas: zotero, DOI,packages. formato APA
 
-4-11 Referencias cruzadas, imágenes
+30-10 Referencias cruzadas, imágenes
 
-6-11 Tablas y gráficos, chunks según formato destino
+4-11 Tablas y gráficos, chunks según formato destino
 
-11-11 Git Sync
+6-11 Git Sync
 
 13-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)

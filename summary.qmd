@@ -1,7 +1,88 @@
-# Summary
+# Gráficos y Tablas {#sec-tablas}
 
-In summary, this book has no content whatsoever.
+Como podemos ver en la tabla @tbl-mi-tabla-gt2 , se aprecia claramente que el índice SP-500 presenta una tendencia a la 💩 ...
 
 ```{r}
-1 + 1
+#| echo: false
+#| label: tbl-mi-tabla-gt2
+#| tbl-cap: "El título de tu tabla"
+
+library(gt)
+
+# Define the start and end dates for the data range
+start_date <- "2010-06-07"
+end_date <- "2010-06-14"
+
+# Create a gt table based on preprocessed
+# `sp500` table data
+sp500 |>
+  dplyr::filter(date >= start_date & date <= end_date) |>
+  dplyr::select(-adj_close) |>
+  gt() |>
+  tab_header(
+    title = "S&P 500",
+    subtitle = glue::glue("{start_date} to {end_date}")
+  ) |>
+  fmt_currency() |>
+  fmt_date(columns = date, date_style = "wd_m_day_year") |>
+  fmt_number(columns = volume, suffixing = TRUE)
+
+     
 ```
+
+Mientras que en la tabla de `Iris` que se aprecia en la tabla @tbl-mi-tabla-gt1 las medidas del sépalo varían desde
+
+```{r}
+#| label: tbl-mi-tabla-gt1
+#| tbl-cap: "Un ejemplo de tabla creada con {gt}."
+#| echo: false
+#| warning: false
+
+library(gt)
+library(dplyr) # Solo para el ejemplo
+
+# Usamos 'iris' como datos de ejemplo
+iris |>
+  head(3) |>  # Tomamos solo las primeras 10 filas
+  gt() |> 
+  tab_header(
+    title = "Primeras 3 filas del dataset Iris"
+  ) |> 
+  cols_label(
+    Sepal.Length = "Largo Sépalo",
+    Sepal.Width = "Ancho Sépalo"
+  )
+```
+
+En el @fig-dispersion-iris , podemos ver claramente cómo las diferentes especies de Iris se agrupan según las dimensiones del sépalo...
+
+```{r}
+#| label: fig-dispersion-iris
+#| fig-cap: "Gráfico de dispersión del Largo del Sépalo vs. Ancho del Sépalo en el dataset Iris."
+#| echo: false
+#| fig-height: 3     # Alto estándar
+#| out-width: "50%"  # Que ocupe el 90% del espacio de texto disponible
+
+##| fig-width: 8      # Más ancho que el predeterminado
+
+library(ggplot2)
+
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
+  geom_point() +
+  labs(
+    x = "Largo del Sépalo (cm)",
+    y = "Ancho del Sépalo (cm)",
+    color = "Especie"
+  ) +
+  theme_minimal()
+```
+
+\newpage
+
+En resumen (ya acá me delaté...)
+
+|  |  |  |  |
+|----|----|----|----|
+| **Tipo de Contenido** | **Prefijo del label** | **Opción del Título** | **Sintaxis de Referencia** |
+| **Tabla** (con `gt`) | `tbl-` | `tbl-cap:` | `\@tbl-mi-tabla` |
+| **Figura** (con `ggplot2`) | `fig-` | `fig-cap:` | `\@fig-mi-figura` |

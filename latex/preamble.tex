@@ -6,14 +6,12 @@
 \usepackage{textcomp}
 \usepackage{pdfpages}
 \usepackage{mathptmx}
-
+\usepackage[utf8]{inputenc}  % Define la codificación de entrada (tu archivo .tex)
+\usepackage[T1]{fontenc}     % Define la codificación de las fuentes (el PDF)
 \usepackage{scrlayer-scrpage}
-\usepackage{lipsum}% just to generate text for the example
-
 \pagestyle{scrheadings}
 \clearpairofpagestyles
 \ohead{\rightmark}
 \cfoot[\pagemark]{\pagemark}
-
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}

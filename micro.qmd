@@ -15,7 +15,7 @@ El punto donde ambas curvas se cruzan se llama **equilibrio de mercado**. En est
 
 Este equilibrio se ilustra claramente en el gráfico de oferta y demanda, como se ve en la @fig-oferta-demanda.
 
-![Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio ($P^2$) y la cantidad de equilibrio ($Q^*$).](img/od.png){#fig-oferta-demanda fig-align="right" width="70%"}
+![Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio ($P^2$) y la cantidad de equilibrio ($Q^*$).](img/od.png){#fig-oferta-demanda fig-align="center" width="40%"}
 
 Cualquier precio por encima de $P^*$ resultará en un excedente, mientras que cualquier precio por debajo causará escasez.
 

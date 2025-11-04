@@ -11,9 +11,14 @@ book:
     - macro.qmd
     - summary.qmd
     - references.qmd
+  
+
 
 bibliography: references.bib
 lang: es
+
+crossref:
+    chapters: true # 
 
 format:
   html:
@@ -29,5 +34,12 @@ format:
     fontsize: 12pt
     geometry: left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm
     biblio-style: apa
+    toc: true           # Activa el Índice de Contenido (Table of Contents)
+    lof: true
+    lot: true
+    toc-title: "Índice"
+    lof-title: "Índice de Figuras"
+    lot-title: "Índice de Tablas"
+
 editor: visual
 
