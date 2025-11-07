@@ -1,0 +1,102 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sesiones Trabajo de Grado",
+    "section": "",
+    "text": "1 Contenido\nEsto es un demo para un libro Quarto book\nMás info sobre documentación Quarto https://quarto.org/docs/books.\nVoy a crear referencia a un paquete (Wickham et al. 2023) que hemos usado ampliamente",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Contenido</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#sesiones-programadas",
+    "href": "index.html#sesiones-programadas",
+    "title": "Sesiones Trabajo de Grado",
+    "section": "1.1 Sesiones Programadas",
+    "text": "1.1 Sesiones Programadas\n7-10 Config YML, Build- Render pdf y/o html\n9-10 Capítulos, Preview\n16-10 configurar GIT\n21-10 Citas: zotero, DOI,packages. formato APA\n30-10 Referencias cruzadas, imágenes\n4-11 Tablas y gráficos, chunks según formato destino\n6-11 Git Sync\n13-11 usar Netlify para hospedaje, Publicarlo en una servidor gratuito (sin publicidad)\n\n\n\n\nWickham, Hadley, Romain François, Lionel Henry, Kirill Müller, y Davis Vaughan. 2023. «dplyr: A Grammar of Data Manipulation». https://doi.org/10.32614/CRAN.package.dplyr.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Contenido</span>"
+    ]
+  },
+  {
+    "objectID": "introduccion.html",
+    "href": "introduccion.html",
+    "title": "2  Introducción a la Economía",
+    "section": "",
+    "text": "Bienvenidos a este curso introductorio de economía. La economía es el estudio de cómo las sociedades gestionan sus recursos escasos. Esta definición simple abarca un campo de estudio inmenso y complejo.\nEn este libro, dividiremos nuestro estudio en dos ramas principales:\n\nMicroeconomía: El estudio de cómo los hogares y las empresas toman decisiones e interactúan en los mercados.\nMacroeconomía: El estudio de los fenómenos que afectan al conjunto de la economía, como la inflación, el desempleo y el crecimiento económico.\n\nComenzaremos explorando los fundamentos de la oferta y la demanda en el Capítulo 3. Posteriormente, analizaremos los grandes agregados en el Capítulo 4.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción a la Economía</span>"
+    ]
+  },
+  {
+    "objectID": "micro.html",
+    "href": "micro.html",
+    "title": "3  Microeconomía: Oferta y Demanda",
+    "section": "",
+    "text": "3.1 El Modelo de Mercado\nUn mercado es un grupo de compradores y vendedores de un bien o servicio en particular.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Microeconomía: Oferta y Demanda</span>"
+    ]
+  },
+  {
+    "objectID": "micro.html#el-modelo-de-mercado",
+    "href": "micro.html#el-modelo-de-mercado",
+    "title": "3  Microeconomía: Oferta y Demanda",
+    "section": "",
+    "text": "La demanda (\\(D\\)) representa la cantidad de un bien que los compradores están dispuestos y son capaces de comprar.\nLa oferta (\\(S\\)) representa la cantidad que los vendedores están dispuestos y son capaces de vender.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Microeconomía: Oferta y Demanda</span>"
+    ]
+  },
+  {
+    "objectID": "micro.html#el-equilibrio",
+    "href": "micro.html#el-equilibrio",
+    "title": "3  Microeconomía: Oferta y Demanda",
+    "section": "3.2 El Equilibrio",
+    "text": "3.2 El Equilibrio\nEl punto donde ambas curvas se cruzan se llama equilibrio de mercado. En este punto, el precio ha alcanzado un nivel en el que la cantidad ofrecida equivale a la cantidad demandada.\nEste equilibrio se ilustra claramente en el gráfico de oferta y demanda, como se ve en la Figura 3.1 .\n\n\n\n\n\n\nFigura 3.1: Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio (\\(P^2\\)) y la cantidad de equilibrio (\\(Q^*\\)).\n\n\n\nCualquier precio por encima de \\(P^*\\) resultará en un excedente, mientras que cualquier precio por debajo causará escasez.\n\n3.2.1 Economia conductual\nLa microeconomía conductual (o economía del comportamiento) representa una fusión entre la psicología y la microeconomía tradicional. Su objetivo es mejorar el poder explicativo de la economía incorporando factores psicológicos en el análisis de la toma de decisiones. A diferencia del modelo clásico del homo economicus, que asume que los individuos son perfectamente racionales, egoístas y maximizadores de utilidad, la economía conductual parte de la premisa de que los seres humanos operan con una racionalidad limitada. Esto significa que nuestras decisiones están a menudo influenciadas por emociones, sesgos cognitivos y factores sociales, lo que nos lleva a tomar decisiones que, a veces, son predeciblemente irracionales.\nEste campo de estudio se centra en identificar y analizar las heurísticas (atajos mentales) y los sesgos cognitivos que afectan sistemáticamente nuestras elecciones. Conceptos clave incluyen la aversión a la pérdida, que postula que el dolor de perder una cantidad es psicológicamente más poderoso que el placer de ganar la misma cantidad. Otros ejemplos son el efecto anclaje, donde dependemos excesivamente de la primera información recibida; el sesgo de statu quo, nuestra tendencia a preferir que las cosas permanezcan como están; y el efecto marco (framing), que demuestra cómo la forma en que se presenta una opción puede alterar drásticamente la decisión tomada.\nLas implicaciones de la microeconomía conductual son vastas y han revolucionado tanto el sector privado como las políticas públicas. En marketing, ayuda a entender por qué los consumidores eligen un producto sobre otro. En finanzas, explica las burbujas de mercado y las decisiones de inversión subóptimas. Quizás su aplicación más famosa sea en el diseño de “Nudges” (pequeños empujones), popularizado por Richard Thaler. Estos son cambios sutiles en la arquitectura de decisión que guían a las personas hacia elecciones más beneficiosas (como ahorrar más para la jubilación o elegir opciones más saludables) sin coartar su libertad de elección.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Microeconomía: Oferta y Demanda</span>"
+    ]
+  },
+  {
+    "objectID": "macro.html",
+    "href": "macro.html",
+    "title": "4  Macroeconomía: Medición del Ingreso",
+    "section": "",
+    "text": "4.1 El Producto Interno Bruto (PIB)\nLa estadística más importante para medir la salud económica de un país es el Producto Interno Bruto (PIB).\nEl PIB (\\(Y\\)) se compone de cuatro elementos:\n\\[ Y = C + I + G + (X - M) \\]\nDonde: * \\(C\\) = Consumo * \\(I\\) = Inversión * \\(G\\) = Gasto del Gobierno * \\((X - M)\\) = Exportaciones Netas\nMientras que nuestro análisis en la Figura 3.1 se centraba en el precio y la cantidad de un solo bien, el PIB suma el valor de todos los bienes.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Macroeconomía: Medición del Ingreso</span>"
+    ]
+  },
+  {
+    "objectID": "macro.html#el-producto-interno-bruto-pib",
+    "href": "macro.html#el-producto-interno-bruto-pib",
+    "title": "4  Macroeconomía: Medición del Ingreso",
+    "section": "",
+    "text": "El PIB es el valor de mercado de todos los bienes y servicios finales producidos dentro de un país en un período de tiempo determinado.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Macroeconomía: Medición del Ingreso</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "5  Gráficos y Tablas",
+    "section": "",
+    "text": "Como podemos ver en la tabla Tabla 5.1 se aprecia claramente que el índice SP-500 presenta una tendencia a la 💩 …\n\n\n\n\nTabla 5.1: El título de tu tabla en formato GT\n\n\n\n\n\n\n\n\n\nS&P 500\n\n\n2010-06-07 to 2010-06-14\n\n\ndate\nopen\nhigh\nlow\nclose\nvolume\n\n\n\n\nMon, Jun 14, 2010\n$1,095.00\n$1,105.91\n$1,089.03\n$1,089.63\n4.43B\n\n\nFri, Jun 11, 2010\n$1,082.65\n$1,092.25\n$1,077.12\n$1,091.60\n4.06B\n\n\nThu, Jun 10, 2010\n$1,058.77\n$1,087.85\n$1,058.77\n$1,086.84\n5.14B\n\n\nWed, Jun 9, 2010\n$1,062.75\n$1,077.74\n$1,052.25\n$1,055.69\n5.98B\n\n\nTue, Jun 8, 2010\n$1,050.81\n$1,063.15\n$1,042.17\n$1,062.00\n6.19B\n\n\nMon, Jun 7, 2010\n$1,065.84\n$1,071.36\n$1,049.86\n$1,050.47\n5.47B\n\n\n\n\n\n\n\n\n\n\nMientras que en la tabla de Iris que se aprecia en la tabla Tabla 5.2 las medidas del sépalo varían desde\n\n\n\n\nTabla 5.2: Un ejemplo de tabla creada con {gt}.\n\n\n\n\n\n\n\n\n\nPrimeras 3 filas del dataset Iris\n\n\nLargo Sépalo\nAncho Sépalo\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n\n\n\n\n\n\n\n\nEn el Figura 5.1 , podemos ver claramente cómo las diferentes especies de Iris se agrupan según las dimensiones del sépalo…\n\n\n\n\n\n\n\n\nFigura 5.1: Gráfico de dispersión del Largo del Sépalo vs. Ancho del Sépalo en el dataset Iris.\n\n\n\n\n\n\nEn resumen (ya acá me delaté…)\n\n\n\n\n\n\n\n\n\nTipo de Contenido\nPrefijo del label\nOpción del Título\nSintaxis de Referencia\n\n\nTabla (con gt)\ntbl-\ntbl-cap:\n\\@tbl-mi-tabla\n\n\nFigura (con ggplot2)\nfig-\nfig-cap:\n\\@fig-mi-figura",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Gráficos y Tablas</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Bibliografía",
+    "section": "",
+    "text": "Wickham, Hadley, Romain François, Lionel Henry, Kirill Müller, and Davis\nVaughan. 2023. “Dplyr: A Grammar of Data Manipulation.” https://doi.org/10.32614/CRAN.package.dplyr.",
+    "crumbs": [
+      "Bibliografía"
+    ]
+  }
+]

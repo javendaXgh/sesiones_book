@@ -1,4 +1,4 @@
-# Contenido
+# Contenido {#sec-index}
 
 \pagenumbering{arabic}
 

@@ -1,6 +1,6 @@
 # Microeconomía: Oferta y Demanda {#sec-micro}
 
-Como mencionamos en la @sec-intro, la microeconomía se centra en las decisiones individuales. El modelo más fundamental en microeconomía es el de la **oferta y la demanda**.
+Como mencionamos en la @sec-intro, la microeconomía se centra en las decisiones individuales. El modelo más fundamental en microeconomía es el de la **oferta y la demanda**. Más adelante en el @sec-macro
 
 ## El Modelo de Mercado
 
@@ -13,7 +13,7 @@ Un mercado es un grupo de compradores y vendedores de un bien o servicio en part
 
 El punto donde ambas curvas se cruzan se llama **equilibrio de mercado**. En este punto, el precio ha alcanzado un nivel en el que la cantidad ofrecida equivale a la cantidad demandada.
 
-Este equilibrio se ilustra claramente en el gráfico de oferta y demanda, como se ve en la @fig-oferta-demanda.
+Este equilibrio se ilustra claramente en el gráfico de oferta y demanda, como se ve en la @fig-oferta-demanda .
 
 ![Un gráfico estándar de oferta y demanda que muestra el precio de equilibrio ($P^2$) y la cantidad de equilibrio ($Q^*$).](img/od.png){#fig-oferta-demanda fig-align="center" width="40%"}
 

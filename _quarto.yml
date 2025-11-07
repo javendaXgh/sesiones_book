@@ -11,8 +11,6 @@ book:
     - macro.qmd
     - summary.qmd
     - references.qmd
-  
-
 
 bibliography: references.bib
 lang: es

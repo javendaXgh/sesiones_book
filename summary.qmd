@@ -1,11 +1,11 @@
 # Gráficos y Tablas {#sec-tablas}
 
-Como podemos ver en la tabla @tbl-mi-tabla-gt2 , se aprecia claramente que el índice SP-500 presenta una tendencia a la 💩 ...
+Como podemos ver en la tabla @tbl-mi-tabla-gt2 se aprecia claramente que el índice SP-500 presenta una tendencia a la 💩 ...
 
 ```{r}
 #| echo: false
 #| label: tbl-mi-tabla-gt2
-#| tbl-cap: "El título de tu tabla"
+#| tbl-cap: "El título de tu tabla en formato GT"
 
 library(gt)
 
@@ -61,7 +61,7 @@ En el @fig-dispersion-iris , podemos ver claramente cómo las diferentes especie
 #| fig-cap: "Gráfico de dispersión del Largo del Sépalo vs. Ancho del Sépalo en el dataset Iris."
 #| echo: false
 #| fig-height: 3     # Alto estándar
-#| out-width: "50%"  # Que ocupe el 90% del espacio de texto disponible
+#| out-width: "70%"  # Que ocupe el 90% del espacio de texto disponible
 
 ##| fig-width: 8      # Más ancho que el predeterminado
 
